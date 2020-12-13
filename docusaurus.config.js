@@ -3,11 +3,11 @@ const path = require('path')
 module.exports = {
   title: 'Python-Wechaty',
   tagline: '一个开发所有IM平台的聊天机器人SDK',
-  url: 'https://wechaty.js.org',
-  baseUrl: '/',
+  url: 'https://wj-Mcat.github.io',
+  baseUrl: '/python-wechaty-doc/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'wechaty',    // Usually your GitHub org/user name.
+  organizationName: 'wj-Mcat',    // Usually your GitHub org/user name.
   projectName: 'wechaty.js.org',  // Usually your repo name.
   stylesheets: [
     '/css/gitter-sidecar.css',
