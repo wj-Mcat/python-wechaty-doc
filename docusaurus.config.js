@@ -5,10 +5,10 @@ module.exports = {
   tagline: '一个开发所有IM平台的聊天机器人SDK',
   url: 'https://wj-Mcat.github.io',
   baseUrl: '/python-wechaty-doc/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'wj-Mcat',    // Usually your GitHub org/user name.
-  projectName: 'wechaty.js.org',  // Usually your repo name.
+  projectName: 'python-wechaty-doc',  // Usually your repo name.
   stylesheets: [
     '/css/gitter-sidecar.css',
   ],
@@ -78,8 +78,6 @@ module.exports = {
           items: [
             { label: 'Blog',      href: 'https://wechaty.js.org/blog/' },
             { label: 'Book',      href: 'http://www.bot5.club/blogs/chatbot-0-1/' },
-            { label: 'Branding',  to:   'branding' },
-            { label: 'Press',     to:   'press' },
             { label: 'GitHub',    href: 'https://github.com/wechaty/wechaty#readme' },
             { label: 'Status',    href: 'https://chatie.statuspage.io/' },
           ],
@@ -90,7 +88,7 @@ module.exports = {
         src  : 'img/wechaty-logo.svg',
         href : 'https://wechaty.js.org/',
       },
-      copyright: `Copyright © 2016-${new Date().getFullYear()} Wechaty Contributors`,
+      copyright: `Copyright © 2020-${new Date().getFullYear()} Python-Wechaty Contributors`,
     },
     algolia: {
       apiKey           : 'cd8ca324c447a803e8a196a5c8fa22dd',
