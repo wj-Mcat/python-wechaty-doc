@@ -53,11 +53,4 @@ jobs:
         run: |
           git config --global user.email "1435130236@qq.com"
           git config --global user.name "wj-Mcat"
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
-          npx docusaurus deploy
+          npm run deploy
